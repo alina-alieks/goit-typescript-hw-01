@@ -6,8 +6,8 @@ type Page = {
   accounts: string[];
   status: "open" | "close";
   details?: {
-    createAt: object;
-    updateAt: object;
+    createAt: Date;
+    updateAt: Date;
   };
 };
 
